@@ -76,7 +76,7 @@ const resumeLink = "https://drive.google.com/your-shareable-resume-link";
 Run the app:
 
 ```bash
-node app.js
+node send-email.js
 ```
 
 You’ll be prompted:
