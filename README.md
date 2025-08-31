@@ -57,13 +57,9 @@ GMAIL_PASS=your16charAppPassword
 
 ### 5. Add Resume
 
-- Place your resume PDF in the project root with the name:
+- Place your resume PDF in the project root and update the **Resume Path** inside `send-email.js`
 
-```
-Kartik_Bokadia_Resume.pdf
-```
-
-- Also update the **Google Drive share link** inside `app.js`:
+- Also update the **Google Drive share link** inside `send-email.js`:
 
 ```js
 const resumeLink = "https://drive.google.com/your-shareable-resume-link";
@@ -76,7 +72,7 @@ const resumeLink = "https://drive.google.com/your-shareable-resume-link";
 Run the app:
 
 ```bash
-node send-email.js
+node script/send-email.js
 ```
 
 You’ll be prompted:

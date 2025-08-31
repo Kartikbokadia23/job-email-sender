@@ -5,7 +5,7 @@ import inquirer from "inquirer";
 dotenv.config();
 
 // local resume file (keep in same folder as app.js)
-const resumePath = "./resume/Kartik_Bokadia_Frontend_Resume.pdf";
+const resumePath = "./attachment/Kartik_Bokadia_Frontend_Resume.pdf";
 // Google Drive link to resume (make sure it’s shareable)
 const resumeLink = "https://drive.google.com/file/d/1lu50yetna5geS-muEA9-Kquc578yuc5C/view?usp=sharing";
 
